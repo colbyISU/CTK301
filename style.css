@@ -1,0 +1,55 @@
+p {
+    color: #88c258;
+}
+
+h1 {
+    color: #fff59d;
+    background-color: #005511;
+}
+
+footer {
+    color: #ffffff;
+    background-color: #ff0000;
+}
+
+#specialID {
+    color: #3f3f92;
+    background-color: aqua;
+}
+
+.specialP {
+    color: #472317;
+    background-color:crimson;
+}
+
+#divexample {
+    color: #0000ff;
+    background-color: #ffff00;
+}
+
+.spanstyle {
+    color:black;
+}
+
+a {
+    color: #ff0000;
+   }
+   
+   a:link {
+    color: #00ff00;
+    text-decoration: none;
+   }
+   
+   a:visited {
+    color: #8585e7;
+   }
+   
+   a:active {
+    color: #00ffff;
+   }
+   
+   a:hover {
+    color: #ffff00;
+    text-decoration: underline;
+   }    
+
