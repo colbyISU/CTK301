@@ -1,0 +1,42 @@
+h1 {
+    color: white;
+}
+
+a {
+    color: #169b24;
+}
+
+
+
+.headerDiv {
+    background-color: #99aaff;
+}
+
+h2 {
+    color: blue;
+}
+
+h3 {
+    background-color: yellow;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    background-color: #90ee90;
+}
+
+h4 {
+    color: #ffff00;
+    background-color: #006400;
+}
+
+h5 {
+    color: #9c399c;
+}
+
+.spanClass {
+    color: #ffa500;
+}
