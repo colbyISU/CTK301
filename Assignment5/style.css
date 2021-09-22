@@ -1,0 +1,55 @@
+.container {
+    background-image: url('Soul.png');
+    background-repeat: no-repeat;
+    width: 640px;
+    height: 865px;
+}
+
+h1 {
+    font-family: Impact;
+    font-size: 120pt;
+    text-align: center;
+    color: #4186d4;
+}
+
+.orange {
+    color: orange;
+}
+
+footer {
+    max-width: 640px;
+}
+
+.top {
+    font-family: Helvetica;
+    color: white;
+    text-align: right;
+    padding: 25px;
+}
+
+.bottom {
+    font-family: Arial;
+    color: #4186d4;
+    text-align: center;
+}
+
+.small {
+    font-size: 7pt;
+}
+
+a {
+    color: #4186d4;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: orange;
+    text-decoration: underline;
+}
+
+
+
+.link {
+    margin-top: 20px;
+}
