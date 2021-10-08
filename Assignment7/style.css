@@ -1,0 +1,137 @@
+html {
+    background-color: gray;
+}
+#wrapper {
+    width: 960px;
+    border: 5px solid #00479f;
+    background-color: white;
+    margin: 1em auto;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+header {
+    background-image: linear-gradient(to bottom, #0088e7, #00479f);
+    padding: 0 15px;
+    grid-column: span 12;
+}
+
+header h1 {
+    color: #66ccff;
+    font-family: Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: italic;
+}
+
+header a{
+    color: #66ccff;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: white;
+}
+
+nav {
+    background-color: #00479f;
+    border-bottom: 5px solid #00479f;
+    grid-column: span 12;
+}
+
+nav ul {
+    margin: 0;
+    margin-left: -40px;
+}
+
+nav li {
+    display: inline-block;
+    background-image: linear-gradient(to bottom, #0063be, #00479f);
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: #66ccff;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 14pt;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    padding-left: 20px;
+    margin: 0;
+    width: 202px;
+}
+
+nav a:hover {
+    color: white;
+    background-color: #006dd3;
+}
+
+main {
+    font-family: Georgia, serif;
+    margin: 20px;
+    margin-top: 0;
+}
+
+#main1 {
+    font-weight: bold;
+    grid-column: span 12;
+    margin-bottom: -10px;
+}
+
+#main2 {
+    grid-column: span 12;
+}
+
+img {
+    border: solid 3px #00479f;
+    margin: 10px;
+}
+
+.fl {
+    
+    width: 350px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.fr {
+    width: 400px;
+    float: right;
+    margin: 0 0 20px 20px;
+}
+
+h2 {
+    color: #00479f;
+    font-family: Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 17pt;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #00479f;
+}
+
+#link {
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#link:hover {
+    color: #0088e7;
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #d01d00;
+    border-top: 5px solid #00479f;
+    padding: 15px;
+    grid-column: span 12;
+}
+
+footer img {
+    height: 70px;
+    border: none;
+}
