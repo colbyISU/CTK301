@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Home</title>
+
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+
+<body>
+    <div id="nav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <img href="index.html" class="logo" src="images/logo.png">
+        <a href="index.html">HOME</a>
+        <a href="work.html">WORK</a>
+        <a href="about.html">ABOUT</a>
+        <a href="contact.html">CONTACT</a>
+    </div>
+    
+    <span onclick="openNav()"><img href="#" class="smallLogo" src="images/logo.png"></span>
+    
+    <!--Main Content-->
+    <div id="main">
+        <h1>JACOB COLBY</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur fugit soluta laudantium labore quod accusantium sint. Voluptatibus, architecto! Sequi sunt assumenda corrupti hic debitis id placeat recusandae eligendi adipisci explicabo. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus blanditiis quam eveniet praesentium, architecto eius aspernatur enim dicta facere provident in sapiente veniam, quo ad explicabo consequuntur alias, id recusandae.</p>
+
+        <div class="content">
+            <div class="box">
+                
+            </div>
+            <div class="box">
+                
+            </div>
+            <div class="box">
+                
+            </div>
+            <div class="box">
+                
+            </div>
+        </div>
+    </div>
+
+    
+
+    <script>
+        function openNav() {
+            document.getElementById("nav").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "400px";
+        }
+
+        function closeNav() {
+            document.getElementById("nav").style.width = "0";
+            document.getElementById("main").style.marginLeft = "150px";
+        }
+    </script>
+</body>
+
+<footer>
+
+</footer>
+
+</html>
