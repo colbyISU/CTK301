@@ -1,0 +1,168 @@
+html {
+    font-family: Helvetica, sans-serif;
+    background-color: #11141a;
+    margin: 0;
+    padding: 0;
+    min-width: 100%;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+@font-face {
+	font-family: AkiraExpanded;
+	src: url("AkiraExpanded.otf");
+}
+
+.sidenav {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(210, 98, 98);
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+  text-align: center;
+}
+
+.sidenav a {
+  font-family: AkiraExpanded, sans-serif;
+  padding: 12px 8px;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  background-color: rgb(184,  78, 78);
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  font-family: Helvetica, sans-serif;
+}
+
+.sidenav .closebtn:hover {
+  background-color: transparent;
+}
+
+.logo {
+    width: 100px;
+    cursor: pointer;
+}
+
+.smallLogo {
+  margin-top: 50vh;
+  width: 50px;
+  background-color: rgb(184,  78, 78);
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  position: fixed;
+}
+
+.smallLogo:hover {
+  cursor: pointer;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 10px;
+  margin-left: 400px;
+  margin-right: 150px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+#main h1 {
+  font-family: AkiraExpanded, sans-serif;
+  font-size: 50px;
+  color: white;
+  margin: 10px;
+  margin-top: 40px;
+  grid-column: span 12;
+}
+
+#main p.sub {
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    color: #636871;
+    grid-column: span 12;
+    text-align: justify;
+    height: 100px;
+    overflow-y: hidden;
+}
+
+.video {
+  width: 100%;
+  text-align: center;
+  margin: 20px 0;
+  grid-column: span 12;
+}
+
+.video iframe {
+  padding: 10px;
+}
+
+.content {
+  grid-column: span 12;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 20px -10px;
+}
+.content .box {
+  grid-column: span 1;
+  height: 200px;
+  border: solid 4px rgb(184,  78, 78);
+  margin: 10px;
+}
+
+footer {
+  grid-column: span 12;
+  background-color: rgb(11, 11, 14);
+  color: white;
+  text-align: center;
+  margin: 0;
+  margin-left: 250px;
+  bottom: 0;
+  transition: .5s;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer p {
+  font-family: Helvetica, Arial, sans-serif;
+  color: #adadad;
+  margin: auto;
+  padding: 25px;
+}
+
+footer .socials {
+  margin: auto;
+  padding: 25px;
+}
+
+footer .socials a {
+  font-size: 16pt;
+  color: #adadad;
+  margin: auto;
+  padding: 5px;
+}
+
+footer .socials a:hover {
+  color: white;
+  transition: color .3s;
+}
