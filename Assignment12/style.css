@@ -6,6 +6,10 @@ html {
     min-width: 100%;
 }
 
+html, body {
+  height: 100%;
+}
+
 * {
 	box-sizing: border-box;
 	margin: 0;
@@ -85,9 +89,12 @@ html {
   transition: margin-left .5s;
   padding: 0;
   margin: 0;
-  margin-left: 250px;
+  margin-left: 350px;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
+  min-height: 100%;
+  padding-bottom: 75px;
+  margin-right: 100px;
 }
 
 #main h1 {
@@ -113,12 +120,16 @@ html {
   grid-column: span 12;
   height: fit-content;
   overflow: hidden;
-  margin-left: 100px;
-  margin-right: 100px;
 }
 
 .topText {
   margin: 210px 0;
+}
+
+.top img {
+  float: left;
+  max-height: 350px;
+  margin: 10px;
 }
 
 .bgVideo {
@@ -140,9 +151,41 @@ html {
 }
 .content .box {
   grid-column: span 1;
-  height: 200px;
+  height: 300px;
   border: solid 2px rgb(184,  78, 78);
   margin: 5px;
+}
+
+.content .box .prev {
+  height: calc(100% - 28px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden
+}
+
+.content .box .prev img {
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%;
+  max-width: 100%;
+  filter: grayscale(0.5) blur(2px);
+  opacity: 0.25;
+  transition: 0.2s;
+}
+
+.content .box .prev img:hover {
+  filter: none;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.content .box .subtitle {
+  color: white;
+  text-align: center;
+  font-family: AkiraExpanded, sans-serif;
+  padding: 5px;
+  background-color: rgb(36, 41, 51);
 }
 
 footer {
@@ -152,6 +195,7 @@ footer {
   text-align: center;
   margin: 0;
   margin-left: 250px;
+  margin-top: -75px;
   bottom: 0;
   transition: .5s;
   display: flex;
@@ -194,4 +238,13 @@ footer .socials a:hover {
 .carousel img {
   width: 100%;
   grid-column: span 12;
+}
+
+.instagram {
+  grid-column: span 3;
+  margin: 5px;
+}
+
+.eui-widget-title es-widget-title eapps-instagram-feed-title {
+  display: none;
 }
