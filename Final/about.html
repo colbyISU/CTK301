@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="icon" href="images/icon.png">
+
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
+</head>
+
+
+<body>
+    <div id="nav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <img href="index.html" class="logo" src="images/logo.png">
+        <a href="index.html">HOME</a>
+        <a href="work.html">WORK</a>
+        <a href="about.html">ABOUT</a>
+        <a href="contact.html">CONTACT</a>
+    </div>
+    
+    <span onclick="openNav()"><img href="#" class="smallLogo" src="images/logo.png"></span>
+    
+    <div id="main">
+        <div class="top">
+            <h1>ABOUT ME</h1>
+            <img src="images/portrait.jpg">
+            <p class="sub">Hey! I'm currently a 3rd year Game Design student at Illinois State University. I'm from Wheaton, Illinois and have lots of experience in graphic design and computer    programming. I formerly attended Drake University for Computer Science and Graphic Design, so I'm looking to tie those together here. I'm really passionate about art and video games and hope you can see that throughout my portfolio.</p>
+        </div>
+    </div>
+
+    <footer id="footer">
+        <div class="socials">
+            <a href="https://instagram.com/jqcob.c" target="_blank" class="bi bi-instagram"></a>
+            <a href="https://twitter.com/colbsir" target="_blank" class="bi bi-twitter"></a>
+            <a href="https://youtube.com/colbsir" target="_blank" class="bi bi-youtube"></a>
+            <a href="https://twitch.tv/colbsir" target="_blank" class="bi bi-twitch"></a>
+        </div>
+        <p>Copyright: Jacob Colby 2021 &copy;</p>
+    </footer>   
+
+    <script>
+        function openNav() {
+            document.getElementById("nav").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "350px";
+            document.getElementById("footer").style.marginLeft = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("nav").style.width = "0";
+            document.getElementById("main").style.marginLeft = "100px";
+            document.getElementById("footer").style.marginLeft = "0";
+        }
+    </script>
+</body>
+
+</html>
