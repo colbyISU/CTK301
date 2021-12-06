@@ -15,7 +15,7 @@
 <body>
     <div id="nav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <img href="index.html" class="logo" src="images/logo.png">
+        <a id="noHover" href="index.html"><img class="logo" src="images/logo.png"></a>
         <a href="index.html">HOME</a>
         <a href="work.html">WORK</a>
         <a href="about.html">ABOUT</a>
@@ -27,6 +27,20 @@
     <div id="main">
         <div class="top">
             <h1>CONTACT ME</h1>
+            <form action="action_page.php">
+
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+            
+                <input type="submit" value="Submit">
+            
+              </form>
         </div>
     </div>
 
